@@ -30,4 +30,27 @@ plt.legend()
 plt.show()
 ```
 
+
 ![Alt text](data/first.png)
+
+<br>
+<br>
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+bins = [40,50,60,70,80,90,100]
+
+plt.hist(fifa.Overall, bins = bins)
+plt.xticks(bins)
+
+plt.ylabel('Number of Players')
+plt.xlabel('Skill Level')
+plt.title('Distribution of Player Skills in FIFA 2018')
+
+plt.show()
+```
+
+![Alt text](data/FIFA.png)
